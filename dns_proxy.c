@@ -34,7 +34,7 @@
 #include <time.h>
 #include <errno.h>
 
-int   SOCKS_PORT  = 9050;
+int   SOCKS_PORT  = 1080;
 char *SOCKS_ADDR  = { "127.0.0.1" };
 int   LISTEN_PORT = 53;
 char *LISTEN_ADDR = { "0.0.0.0" };
@@ -299,7 +299,7 @@ int main(int argc, char *argv[]) {
       printf("   option = value\n\n");
       printf(" * Any non-specified options will be set to their defaults:\n");
       printf("   * socks_addr   = 127.0.0.1\n");
-      printf("   * socks_port   = 9050\n");
+      printf("   * socks_port   = 1080\n");
       printf("   * listen_addr  = 0.0.0.0\n");
       printf("   * listen_port  = 53\n");
       printf("   * set_user     = nobody\n");

@@ -283,7 +283,7 @@ int main(int argc, char *argv[]) {
     if (!strcmp(argv[1], "-h")) {
       printf("Usage: %s [options]\n", argv[0]);
       printf(" * With no parameters, the configuration file is read from 'dns_proxy.conf'.\n\n");
-      printf(" -n          -- No configuration file (socks: 127.0.0.1:9999, listener: 0.0.0.0:5300).\n");
+      printf(" -n          -- No configuration file (socks: 127.0.0.1:1080, listener: 0.0.0.0:5300).\n");
       printf(" -h          -- Print this message and exit.\n");
       printf(" config_file -- Read from specified configuration file.\n\n");
       printf(" * The configuration file should contain any of the following options (and ignores lines that begin with '#'):\n");

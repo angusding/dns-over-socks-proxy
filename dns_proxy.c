@@ -40,10 +40,10 @@ int   LISTEN_PORT = 5300;
 char *LISTEN_ADDR = { "0.0.0.0" };
 
 FILE *LOG_FILE;
-char *RESOLVCONF = "resolv.conf";
-char *LOGFILE = "/dev/null";
-char *USERNAME = "nobody";
-char *GROUPNAME = "nobody";
+char *RESOLVCONF = "/var/etc/resolv.conf";
+char *LOGFILE = "/var/log/dns-socks-proxy.log";
+char *USERNAME = "root";
+char *GROUPNAME = "root";
 int NUM_DNS = 0;
 int LOG = 0;
 char **dns_servers;

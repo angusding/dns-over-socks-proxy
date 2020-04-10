@@ -1,4 +1,4 @@
-# DNS SOCKS Proxy
+# DNS over SOCKS Proxy
 
 A simple dns proxy to tunnel DNS requests over a socks proxy (for example, over ssh or Tor). This can come in handy when setting up transparent proxies.
 
